@@ -1316,10 +1316,6 @@ Text GLabel 1350 3950 2    50   Input ~ 0
 sda
 Text GLabel 1350 3850 2    50   Input ~ 0
 scl
-Text GLabel 1350 3750 2    50   Input ~ 0
-GND
-Text GLabel 1200 4750 2    50   Input ~ 0
-GND
 Text GLabel 1200 4850 2    50   Input ~ 0
 scl
 Text GLabel 1200 4950 2    50   Input ~ 0
@@ -1360,12 +1356,120 @@ Text GLabel 1500 6300 0    50   Input ~ 0
 scl
 Text GLabel 1800 6300 2    50   Input ~ 0
 Vcc
-Text GLabel 2200 850  2    50   Input ~ 0
-GND
 Text GLabel 2200 1050 2    50   Input ~ 0
 Vcc
-Text GLabel 800  950  0    50   Input ~ 0
-GND
-Text GLabel 800  1050 0    50   Input ~ 0
-GND
+Text GLabel 2200 950  2    50   Input ~ 0
+RST
+$Comp
+L keyboard_parts2:SW_PUSH SW1
+U 1 1 5C4487C0
+P 3250 6250
+F 0 "SW1" H 3250 6505 50  0000 C CNN
+F 1 "SW_PUSH" H 3250 6414 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3250 6250 60  0001 C CNN
+F 3 "" H 3250 6250 60  0000 C CNN
+	1    3250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts2:SW_PUSH SW2
+U 1 1 5C448928
+P 3250 6650
+F 0 "SW2" H 3250 6905 50  0000 C CNN
+F 1 "SW_PUSH" H 3250 6814 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3250 6650 60  0001 C CNN
+F 3 "" H 3250 6650 60  0000 C CNN
+	1    3250 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6450 2850 6450
+Wire Wire Line
+	2850 6450 2850 6250
+Wire Wire Line
+	2850 6250 2950 6250
+Wire Wire Line
+	2850 6450 2850 6650
+Wire Wire Line
+	2850 6650 2950 6650
+Connection ~ 2850 6450
+Wire Wire Line
+	3550 6250 3750 6250
+Wire Wire Line
+	3750 6250 3750 6450
+Wire Wire Line
+	3750 6650 3550 6650
+Wire Wire Line
+	3750 6450 4200 6450
+Connection ~ 3750 6450
+Wire Wire Line
+	3750 6450 3750 6650
+Text GLabel 2350 6450 0    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR0101
+U 1 1 5C486B80
+P 4200 6450
+F 0 "#PWR0101" H 4200 6200 50  0001 C CNN
+F 1 "GND" V 4205 6322 50  0000 R CNN
+F 2 "" H 4200 6450 50  0001 C CNN
+F 3 "" H 4200 6450 50  0001 C CNN
+	1    4200 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C49D3FD
+P 800 950
+F 0 "#PWR0102" H 800 700 50  0001 C CNN
+F 1 "GND" V 805 822 50  0000 R CNN
+F 2 "" H 800 950 50  0001 C CNN
+F 3 "" H 800 950 50  0001 C CNN
+	1    800  950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C49D51B
+P 800 1050
+F 0 "#PWR0103" H 800 800 50  0001 C CNN
+F 1 "GND" V 805 922 50  0000 R CNN
+F 2 "" H 800 1050 50  0001 C CNN
+F 3 "" H 800 1050 50  0001 C CNN
+	1    800  1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C49D694
+P 2200 850
+F 0 "#PWR0104" H 2200 600 50  0001 C CNN
+F 1 "GND" V 2205 722 50  0000 R CNN
+F 2 "" H 2200 850 50  0001 C CNN
+F 3 "" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C49E86E
+P 1350 3750
+F 0 "#PWR0105" H 1350 3500 50  0001 C CNN
+F 1 "GND" V 1355 3622 50  0000 R CNN
+F 2 "" H 1350 3750 50  0001 C CNN
+F 3 "" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5C4A6C0C
+P 1200 4750
+F 0 "#PWR0106" H 1200 4500 50  0001 C CNN
+F 1 "GND" V 1205 4622 50  0000 R CNN
+F 2 "" H 1200 4750 50  0001 C CNN
+F 3 "" H 1200 4750 50  0001 C CNN
+	1    1200 4750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
