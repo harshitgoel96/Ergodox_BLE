@@ -1472,4 +1472,19 @@ F 3 "" H 1200 4750 50  0001 C CNN
 	1    1200 4750
 	0    -1   -1   0   
 $EndComp
+$Comp
+L keyboard_parts:SOLDER_JUMPER SJ2
+U 1 1 5C44C788
+P 1000 2850
+F 0 "SJ2" H 1025 3041 60  0000 C CNN
+F 1 "SOLDER_JUMPER" H 1050 3000 60  0001 C CNN
+F 2 "Keebio-Parts:solder_jumper" H 1050 2850 60  0001 C CNN
+F 3 "" H 1050 2850 60  0000 C CNN
+	1    1000 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 2800 2    50   Input ~ 0
+sda
+Text GLabel 900  2800 0    50   Input ~ 0
+SDAM
 $EndSCHEMATC

@@ -31,7 +31,7 @@ U 1 1 5C420158
 P 3300 800
 F 0 "K0" H 3300 1033 60  0000 C CNN
 F 1 "KEYSW" H 3300 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3300 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 3300 800 60  0001 C CNN
 F 3 "" H 3300 800 60  0000 C CNN
 	1    3300 800 
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5C420369
 P 4250 800
 F 0 "K1" H 4250 1033 60  0000 C CNN
 F 1 "KEYSW" H 4250 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4250 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 4250 800 60  0001 C CNN
 F 3 "" H 4250 800 60  0000 C CNN
 	1    4250 800 
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5C420420
 P 5100 800
 F 0 "K2" H 5100 1033 60  0000 C CNN
 F 1 "KEYSW" H 5100 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5100 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 5100 800 60  0001 C CNN
 F 3 "" H 5100 800 60  0000 C CNN
 	1    5100 800 
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5C420427
 P 6050 800
 F 0 "K3" H 6050 1033 60  0000 C CNN
 F 1 "KEYSW" H 6050 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6050 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 6050 800 60  0001 C CNN
 F 3 "" H 6050 800 60  0000 C CNN
 	1    6050 800 
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5C4208C6
 P 7000 800
 F 0 "K4" H 7000 1033 60  0000 C CNN
 F 1 "KEYSW" H 7000 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7000 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7000 800 60  0001 C CNN
 F 3 "" H 7000 800 60  0000 C CNN
 	1    7000 800 
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5C4208CD
 P 7950 800
 F 0 "K5" H 7950 1033 60  0000 C CNN
 F 1 "KEYSW" H 7950 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7950 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7950 800 60  0001 C CNN
 F 3 "" H 7950 800 60  0000 C CNN
 	1    7950 800 
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5C4208D4
 P 8800 800
 F 0 "K6" H 8800 1033 60  0000 C CNN
 F 1 "KEYSW" H 8800 700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8800 800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8800 800 60  0001 C CNN
 F 3 "" H 8800 800 60  0000 C CNN
 	1    8800 800 
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5C420F8E
 P 3350 1700
 F 0 "K10" H 3350 1933 60  0000 C CNN
 F 1 "KEYSW" H 3350 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3350 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 3350 1700 60  0001 C CNN
 F 3 "" H 3350 1700 60  0000 C CNN
 	1    3350 1700
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 5C420F95
 P 4300 1700
 F 0 "K11" H 4300 1933 60  0000 C CNN
 F 1 "KEYSW" H 4300 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4300 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 4300 1700 60  0001 C CNN
 F 3 "" H 4300 1700 60  0000 C CNN
 	1    4300 1700
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5C420F9C
 P 5150 1700
 F 0 "K12" H 5150 1933 60  0000 C CNN
 F 1 "KEYSW" H 5150 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5150 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 5150 1700 60  0001 C CNN
 F 3 "" H 5150 1700 60  0000 C CNN
 	1    5150 1700
 	1    0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 5C420FA3
 P 6100 1700
 F 0 "K13" H 6100 1933 60  0000 C CNN
 F 1 "KEYSW" H 6100 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6100 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 6100 1700 60  0001 C CNN
 F 3 "" H 6100 1700 60  0000 C CNN
 	1    6100 1700
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5C420FAA
 P 7050 1700
 F 0 "K14" H 7050 1933 60  0000 C CNN
 F 1 "KEYSW" H 7050 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7050 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7050 1700 60  0001 C CNN
 F 3 "" H 7050 1700 60  0000 C CNN
 	1    7050 1700
 	1    0    0    -1  
@@ -163,7 +163,7 @@ U 1 1 5C420FB1
 P 8000 1700
 F 0 "K15" H 8000 1933 60  0000 C CNN
 F 1 "KEYSW" H 8000 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8000 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8000 1700 60  0001 C CNN
 F 3 "" H 8000 1700 60  0000 C CNN
 	1    8000 1700
 	1    0    0    -1  
@@ -174,7 +174,7 @@ U 1 1 5C420FB8
 P 8850 1700
 F 0 "K16" H 8850 1933 60  0000 C CNN
 F 1 "KEYSW" H 8850 1600 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8850 1700 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8850 1700 60  0001 C CNN
 F 3 "" H 8850 1700 60  0000 C CNN
 	1    8850 1700
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 5C4213F4
 P 3750 2800
 F 0 "K20" H 3750 3033 60  0000 C CNN
 F 1 "KEYSW" H 3750 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3750 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 3750 2800 60  0001 C CNN
 F 3 "" H 3750 2800 60  0000 C CNN
 	1    3750 2800
 	1    0    0    -1  
@@ -196,7 +196,7 @@ U 1 1 5C4213FB
 P 4700 2800
 F 0 "K21" H 4700 3033 60  0000 C CNN
 F 1 "KEYSW" H 4700 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4700 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 4700 2800 60  0001 C CNN
 F 3 "" H 4700 2800 60  0000 C CNN
 	1    4700 2800
 	1    0    0    -1  
@@ -207,7 +207,7 @@ U 1 1 5C421402
 P 5550 2800
 F 0 "K22" H 5550 3033 60  0000 C CNN
 F 1 "KEYSW" H 5550 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5550 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 5550 2800 60  0001 C CNN
 F 3 "" H 5550 2800 60  0000 C CNN
 	1    5550 2800
 	1    0    0    -1  
@@ -218,7 +218,7 @@ U 1 1 5C421409
 P 6500 2800
 F 0 "K23" H 6500 3033 60  0000 C CNN
 F 1 "KEYSW" H 6500 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6500 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 6500 2800 60  0001 C CNN
 F 3 "" H 6500 2800 60  0000 C CNN
 	1    6500 2800
 	1    0    0    -1  
@@ -229,7 +229,7 @@ U 1 1 5C421410
 P 7450 2800
 F 0 "K24" H 7450 3033 60  0000 C CNN
 F 1 "KEYSW" H 7450 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7450 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7450 2800 60  0001 C CNN
 F 3 "" H 7450 2800 60  0000 C CNN
 	1    7450 2800
 	1    0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5C421417
 P 8400 2800
 F 0 "K25" H 8400 3033 60  0000 C CNN
 F 1 "KEYSW" H 8400 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8400 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8400 2800 60  0001 C CNN
 F 3 "" H 8400 2800 60  0000 C CNN
 	1    8400 2800
 	1    0    0    -1  
@@ -251,7 +251,7 @@ U 1 1 5C42141E
 P 9250 2800
 F 0 "K26" H 9250 3033 60  0000 C CNN
 F 1 "KEYSW" H 9250 2700 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 9250 2800 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 9250 2800 60  0001 C CNN
 F 3 "" H 9250 2800 60  0000 C CNN
 	1    9250 2800
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 5C421A03
 P 3650 3850
 F 0 "K30" H 3650 4083 60  0000 C CNN
 F 1 "KEYSW" H 3650 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3650 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 3650 3850 60  0001 C CNN
 F 3 "" H 3650 3850 60  0000 C CNN
 	1    3650 3850
 	1    0    0    -1  
@@ -273,7 +273,7 @@ U 1 1 5C421A0A
 P 4600 3850
 F 0 "K31" H 4600 4083 60  0000 C CNN
 F 1 "KEYSW" H 4600 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4600 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 4600 3850 60  0001 C CNN
 F 3 "" H 4600 3850 60  0000 C CNN
 	1    4600 3850
 	1    0    0    -1  
@@ -284,7 +284,7 @@ U 1 1 5C421A11
 P 5450 3850
 F 0 "K32" H 5450 4083 60  0000 C CNN
 F 1 "KEYSW" H 5450 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5450 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 5450 3850 60  0001 C CNN
 F 3 "" H 5450 3850 60  0000 C CNN
 	1    5450 3850
 	1    0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 5C421A18
 P 6400 3850
 F 0 "K33" H 6400 4083 60  0000 C CNN
 F 1 "KEYSW" H 6400 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6400 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 6400 3850 60  0001 C CNN
 F 3 "" H 6400 3850 60  0000 C CNN
 	1    6400 3850
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 5C421A1F
 P 7350 3850
 F 0 "K34" H 7350 4083 60  0000 C CNN
 F 1 "KEYSW" H 7350 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7350 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7350 3850 60  0001 C CNN
 F 3 "" H 7350 3850 60  0000 C CNN
 	1    7350 3850
 	1    0    0    -1  
@@ -317,7 +317,7 @@ U 1 1 5C421A26
 P 8300 3850
 F 0 "K35" H 8300 4083 60  0000 C CNN
 F 1 "KEYSW" H 8300 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8300 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8300 3850 60  0001 C CNN
 F 3 "" H 8300 3850 60  0000 C CNN
 	1    8300 3850
 	1    0    0    -1  
@@ -328,7 +328,7 @@ U 1 1 5C421A2D
 P 9150 3850
 F 0 "K36" H 9150 4083 60  0000 C CNN
 F 1 "KEYSW" H 9150 3750 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 9150 3850 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 9150 3850 60  0001 C CNN
 F 3 "" H 9150 3850 60  0000 C CNN
 	1    9150 3850
 	1    0    0    -1  
@@ -339,7 +339,7 @@ U 1 1 5C421A42
 P 3650 4950
 F 0 "K40" H 3650 5183 60  0000 C CNN
 F 1 "KEYSW" H 3650 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 3650 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 3650 4950 60  0001 C CNN
 F 3 "" H 3650 4950 60  0000 C CNN
 	1    3650 4950
 	1    0    0    -1  
@@ -350,7 +350,7 @@ U 1 1 5C421A49
 P 4600 4950
 F 0 "K41" H 4600 5183 60  0000 C CNN
 F 1 "KEYSW" H 4600 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 4600 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 4600 4950 60  0001 C CNN
 F 3 "" H 4600 4950 60  0000 C CNN
 	1    4600 4950
 	1    0    0    -1  
@@ -361,7 +361,7 @@ U 1 1 5C421A50
 P 5450 4950
 F 0 "K42" H 5450 5183 60  0000 C CNN
 F 1 "KEYSW" H 5450 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 5450 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 5450 4950 60  0001 C CNN
 F 3 "" H 5450 4950 60  0000 C CNN
 	1    5450 4950
 	1    0    0    -1  
@@ -372,7 +372,7 @@ U 1 1 5C421A57
 P 6400 4950
 F 0 "K43" H 6400 5183 60  0000 C CNN
 F 1 "KEYSW" H 6400 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6400 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 6400 4950 60  0001 C CNN
 F 3 "" H 6400 4950 60  0000 C CNN
 	1    6400 4950
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 5C421A5E
 P 7350 4950
 F 0 "K44" H 7350 5183 60  0000 C CNN
 F 1 "KEYSW" H 7350 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 7350 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 7350 4950 60  0001 C CNN
 F 3 "" H 7350 4950 60  0000 C CNN
 	1    7350 4950
 	1    0    0    -1  
@@ -394,7 +394,7 @@ U 1 1 5C421A65
 P 8300 4950
 F 0 "K45" H 8300 5183 60  0000 C CNN
 F 1 "KEYSW" H 8300 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 8300 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 8300 4950 60  0001 C CNN
 F 3 "" H 8300 4950 60  0000 C CNN
 	1    8300 4950
 	1    0    0    -1  
@@ -405,7 +405,7 @@ U 1 1 5C421A6C
 P 9150 4950
 F 0 "K46" H 9150 5183 60  0000 C CNN
 F 1 "KEYSW" H 9150 4850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 9150 4950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 9150 4950 60  0001 C CNN
 F 3 "" H 9150 4950 60  0000 C CNN
 	1    9150 4950
 	1    0    0    -1  
@@ -1187,7 +1187,7 @@ U 1 1 5C4A987F
 P 9150 5950
 F 0 "K56" H 9150 6183 60  0000 C CNN
 F 1 "KEYSW" H 9150 5850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 9150 5950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_100-dualside" H 9150 5950 60  0001 C CNN
 F 3 "" H 9150 5950 60  0000 C CNN
 	1    9150 5950
 	1    0    0    -1  
@@ -1198,7 +1198,7 @@ U 1 1 5C4A99AD
 P 8300 5950
 F 0 "K55" H 8300 6183 60  0000 C CNN
 F 1 "KEYSW" H 8300 5850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual" H 8300 5950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_200-dualside" H 8300 5950 60  0001 C CNN
 F 3 "" H 8300 5950 60  0000 C CNN
 	1    8300 5950
 	1    0    0    -1  
@@ -1209,7 +1209,7 @@ U 1 1 5C4A9C77
 P 7400 5950
 F 0 "K54" H 7400 6183 60  0000 C CNN
 F 1 "KEYSW" H 7400 5850 60  0001 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_200H-dual" H 7400 5950 60  0001 C CNN
+F 2 "footprints:Mx_Alps_200-dualside" H 7400 5950 60  0001 C CNN
 F 3 "" H 7400 5950 60  0000 C CNN
 	1    7400 5950
 	1    0    0    -1  
