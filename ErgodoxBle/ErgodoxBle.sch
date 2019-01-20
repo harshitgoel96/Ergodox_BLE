@@ -1144,7 +1144,7 @@ Text GLabel 2250 2150 0    50   Input ~ 0
 ROW0
 Text GLabel 2500 2400 0    50   Input ~ 0
 ROW1
-Text GLabel 3000 3150 0    50   Input ~ 0
+Text GLabel 3000 3150 1    50   Input ~ 0
 ROW2
 Text GLabel 2950 4200 0    50   Input ~ 0
 ROW3
@@ -1280,51 +1280,51 @@ SDAM
 $Comp
 L keyboard_parts:SOLDER_JUMPER SJ1
 U 1 1 5C479C99
-P 1000 3200
-F 0 "SJ1" H 1025 3391 60  0000 C CNN
-F 1 "SOLDER_JUMPER" H 1050 3350 60  0001 C CNN
-F 2 "Keebio-Parts:solder_jumper" H 1050 3200 60  0001 C CNN
-F 3 "" H 1050 3200 60  0000 C CNN
-	1    1000 3200
+P 10550 4300
+F 0 "SJ1" H 10575 4491 60  0000 C CNN
+F 1 "SOLDER_JUMPER" H 10600 4450 60  0001 C CNN
+F 2 "Keebio-Parts:solder_jumper" H 10600 4300 60  0001 C CNN
+F 3 "" H 10600 4300 60  0000 C CNN
+	1    10550 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack4 AudioJM1
 U 1 1 5C4AE6FE
-P 1150 3850
-F 0 "AudioJM1" H 1105 4175 50  0000 C CNN
-F 1 "AudioJack4" H 1105 4084 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 1150 3850 50  0001 C CNN
-F 3 "~" H 1150 3850 50  0001 C CNN
-	1    1150 3850
+P 10700 4950
+F 0 "AudioJM1" H 10655 5275 50  0000 C CNN
+F 1 "AudioJack4" H 10655 5184 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 10700 4950 50  0001 C CNN
+F 3 "~" H 10700 4950 50  0001 C CNN
+	1    10700 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack4 AudioJS1
 U 1 1 5C4AE81C
-P 1000 4850
-F 0 "AudioJS1" H 955 5175 50  0000 C CNN
-F 1 "AudioJack4" H 955 5084 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 1000 4850 50  0001 C CNN
-F 3 "~" H 1000 4850 50  0001 C CNN
-	1    1000 4850
+P 10550 5950
+F 0 "AudioJS1" H 10505 6275 50  0000 C CNN
+F 1 "AudioJack4" H 10505 6184 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 10550 5950 50  0001 C CNN
+F 3 "~" H 10550 5950 50  0001 C CNN
+	1    10550 5950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 4050 2    50   Input ~ 0
+Text GLabel 10900 5150 2    50   Input ~ 0
 Vcc
-Text GLabel 1350 3950 2    50   Input ~ 0
+Text GLabel 10900 5050 2    50   Input ~ 0
 sda
-Text GLabel 1350 3850 2    50   Input ~ 0
+Text GLabel 10900 4950 2    50   Input ~ 0
 scl
-Text GLabel 1200 4850 2    50   Input ~ 0
+Text GLabel 10750 5950 2    50   Input ~ 0
 scl
-Text GLabel 1200 4950 2    50   Input ~ 0
+Text GLabel 10750 6050 2    50   Input ~ 0
 sda
-Text GLabel 1200 5050 2    50   Input ~ 0
+Text GLabel 10750 6150 2    50   Input ~ 0
 Vcc
-Text GLabel 1150 3150 2    50   Input ~ 0
+Text GLabel 10700 4250 2    50   Input ~ 0
 sda
-Text GLabel 900  3150 0    50   Input ~ 0
+Text GLabel 10450 4250 0    50   Input ~ 0
 SDAM
 $Comp
 L Device:R R1
@@ -1453,38 +1453,116 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5C49E86E
-P 1350 3750
-F 0 "#PWR0105" H 1350 3500 50  0001 C CNN
-F 1 "GND" V 1355 3622 50  0000 R CNN
-F 2 "" H 1350 3750 50  0001 C CNN
-F 3 "" H 1350 3750 50  0001 C CNN
-	1    1350 3750
+P 10900 4850
+F 0 "#PWR0105" H 10900 4600 50  0001 C CNN
+F 1 "GND" V 10905 4722 50  0000 R CNN
+F 2 "" H 10900 4850 50  0001 C CNN
+F 3 "" H 10900 4850 50  0001 C CNN
+	1    10900 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5C4A6C0C
-P 1200 4750
-F 0 "#PWR0106" H 1200 4500 50  0001 C CNN
-F 1 "GND" V 1205 4622 50  0000 R CNN
-F 2 "" H 1200 4750 50  0001 C CNN
-F 3 "" H 1200 4750 50  0001 C CNN
-	1    1200 4750
+P 10750 5850
+F 0 "#PWR0106" H 10750 5600 50  0001 C CNN
+F 1 "GND" V 10755 5722 50  0000 R CNN
+F 2 "" H 10750 5850 50  0001 C CNN
+F 3 "" H 10750 5850 50  0001 C CNN
+	1    10750 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L keyboard_parts:SOLDER_JUMPER SJ2
 U 1 1 5C44C788
-P 1000 2850
-F 0 "SJ2" H 1025 3041 60  0000 C CNN
-F 1 "SOLDER_JUMPER" H 1050 3000 60  0001 C CNN
-F 2 "Keebio-Parts:solder_jumper" H 1050 2850 60  0001 C CNN
-F 3 "" H 1050 2850 60  0000 C CNN
-	1    1000 2850
+P 10550 3950
+F 0 "SJ2" H 10575 4141 60  0000 C CNN
+F 1 "SOLDER_JUMPER" H 10600 4100 60  0001 C CNN
+F 2 "Keebio-Parts:solder_jumper" H 10600 3950 60  0001 C CNN
+F 3 "" H 10600 3950 60  0000 C CNN
+	1    10550 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 2800 2    50   Input ~ 0
+Text GLabel 10700 3900 2    50   Input ~ 0
 sda
-Text GLabel 900  2800 0    50   Input ~ 0
+Text GLabel 10450 3900 0    50   Input ~ 0
 SDAM
+$Comp
+L proton_c:proton_c PROTOC1
+U 1 1 5C456AFA
+P 1550 3650
+F 0 "PROTOC1" H 1525 2128 50  0000 C CNN
+F 1 "proton_c" H 1525 2037 50  0000 C CNN
+F 2 "protonc:proton_c" H 1400 3650 50  0001 C CNN
+F 3 "" H 1400 3650 50  0001 C CNN
+	1    1550 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 500  3250 0    50   Input ~ 0
+ROW0
+Text GLabel 500  3350 0    50   Input ~ 0
+ROW1
+Text GLabel 500  3450 0    50   Input ~ 0
+ROW2
+Text GLabel 500  3550 0    50   Input ~ 0
+ROW3
+Text GLabel 500  3650 0    50   Input ~ 0
+ROW4
+Text GLabel 500  3750 0    50   Input ~ 0
+ROW5
+Text GLabel 2550 3050 2    50   Input ~ 0
+COL0
+Text GLabel 2550 3150 2    50   Input ~ 0
+COL1
+Text GLabel 2550 3250 2    50   Input ~ 0
+COL2
+Text GLabel 2550 3350 2    50   Input ~ 0
+COL3
+Text GLabel 2550 3450 2    50   Input ~ 0
+COL4
+Text GLabel 2550 3550 2    50   Input ~ 0
+COL5
+Text GLabel 2550 3650 2    50   Input ~ 0
+COL6
+Text GLabel 2550 2850 2    50   Input ~ 0
+RST
+Text GLabel 2550 2950 2    50   Input ~ 0
+Vcc
+Text GLabel 500  3150 0    50   Input ~ 0
+SDAM
+Text GLabel 500  3050 0    50   Input ~ 0
+scl
+$Comp
+L power:GND #PWR0107
+U 1 1 5C45843C
+P 2550 2750
+F 0 "#PWR0107" H 2550 2500 50  0001 C CNN
+F 1 "GND" V 2555 2622 50  0000 R CNN
+F 2 "" H 2550 2750 50  0001 C CNN
+F 3 "" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C45F50C
+P 500 2850
+F 0 "#PWR0108" H 500 2600 50  0001 C CNN
+F 1 "GND" V 505 2722 50  0000 R CNN
+F 2 "" H 500 2850 50  0001 C CNN
+F 3 "" H 500 2850 50  0001 C CNN
+	1    500  2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5C47B2A2
+P 500 2950
+F 0 "#PWR0109" H 500 2700 50  0001 C CNN
+F 1 "GND" V 505 2822 50  0000 R CNN
+F 2 "" H 500 2950 50  0001 C CNN
+F 3 "" H 500 2950 50  0001 C CNN
+	1    500  2950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
