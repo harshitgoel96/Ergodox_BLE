@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:component
-LIBS:ErgoDOX-cache
+LIBS:ErgodoxBle-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1683,7 +1682,7 @@ U 1 1 5C5B93B3
 P 4850 4150
 F 0 "J_Audio_F1" H 4805 4475 50  0000 C CNN
 F 1 "AudioJack4" H 4805 4384 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 4850 4150 50  0001 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 4850 4150 50  0001 C CNN
 F 3 "~" H 4850 4150 50  0001 C CNN
 	1    4850 4150
 	1    0    0    -1  
@@ -1694,7 +1693,7 @@ U 1 1 5C5B959D
 P 6200 4150
 F 0 "J_Audio_B1" H 6155 4475 50  0000 C CNN
 F 1 "AudioJack4" H 6155 4384 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 6200 4150 50  0001 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 6200 4150 50  0001 C CNN
 F 3 "~" H 6200 4150 50  0001 C CNN
 	1    6200 4150
 	1    0    0    -1  
@@ -1716,21 +1715,21 @@ scl
 Text Label 6400 4350 0    50   ~ 0
 GND
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB?
+L Type-C:HRO-TYPE-C-31-M-12 USB_C1
 U 1 1 5C63462A
 P 1250 2850
-F 0 "USB?" H 1081 3647 60  0000 C CNN
+F 0 "USB_C1" H 1081 3647 60  0000 C CNN
 F 1 "HRO-TYPE-C-31-M-12" H 1081 3541 60  0000 C CNN
-F 2 "" H 1250 2850 60  0001 C CNN
+F 2 "usbc_footprint:HRO-TYPE-C-31-M-12" H 1250 2850 60  0001 C CNN
 F 3 "" H 1250 2850 60  0001 C CNN
 	1    1250 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L component:GND #PWR?
+L component:GND #PWR0103
 U 1 1 5C6354D1
 P 1400 2300
-F 0 "#PWR?" H 1400 2300 30  0001 C CNN
+F 0 "#PWR0103" H 1400 2300 30  0001 C CNN
 F 1 "GND" H 1400 2230 30  0001 C CNN
 F 2 "" H 1400 2300 50  0001 C CNN
 F 3 "" H 1400 2300 50  0001 C CNN
@@ -1738,16 +1737,16 @@ F 3 "" H 1400 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 1350 2400 0    50   ~ 0
-Vcc
+VccR
 Text Label 1350 2600 0    50   ~ 0
 CC1
 Text Label 1350 3200 0    50   ~ 0
 CC2
 $Comp
-L component:GND #PWR?
+L component:GND #PWR0104
 U 1 1 5C646282
 P 1400 3400
-F 0 "#PWR?" H 1400 3400 30  0001 C CNN
+F 0 "#PWR0104" H 1400 3400 30  0001 C CNN
 F 1 "GND" H 1400 3330 30  0001 C CNN
 F 2 "" H 1400 3400 50  0001 C CNN
 F 3 "" H 1400 3400 50  0001 C CNN
@@ -1755,7 +1754,7 @@ F 3 "" H 1400 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 1350 3300 0    50   ~ 0
-Vcc
+VccR
 Text Label 1350 2700 0    50   ~ 0
 D-
 Text Label 1350 2800 0    50   ~ 0
@@ -1764,4 +1763,30 @@ Text Label 1350 2900 0    50   ~ 0
 D-
 Text Label 1350 3000 0    50   ~ 0
 D+
+$Comp
+L Regulator_Linear:AMS1117-3.3 U_VR_IC1
+U 1 1 5C499923
+P 2050 1400
+F 0 "U_VR_IC1" H 2050 1642 50  0000 C CNN
+F 1 "AMS1117-3.3" H 2050 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2050 1600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2150 1150 50  0001 C CNN
+	1    2050 1400
+	1    0    0    -1  
+$EndComp
+Text Label 1750 1400 2    50   ~ 0
+VccR
+Text Label 2350 1400 0    50   ~ 0
+Vcc
+$Comp
+L component:GND #PWR0105
+U 1 1 5C49AE71
+P 2050 1750
+F 0 "#PWR0105" H 2050 1750 30  0001 C CNN
+F 1 "GND" H 2050 1680 30  0001 C CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "" H 2050 1750 50  0001 C CNN
+	1    2050 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

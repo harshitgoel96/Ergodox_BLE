@@ -1,6 +1,6 @@
-update=Tue 09 Oct 2012 09:10:18 AM CEST
+update=1/23/2019 6:51:40 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [eeschema]
@@ -41,3 +41,13 @@ MSegLar=240
 [pcbnew/libraries]
 LibDir=
 LibName1=footprint
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
