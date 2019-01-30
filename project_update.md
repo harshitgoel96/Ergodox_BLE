@@ -33,5 +33,5 @@
 * **24-Jan-2019**  
     Feedback was positive. Gave order to JLCPCB. Fingers crossed.
     
-* **30-Jan-2019**
+* **30-Jan-2019**   
     Used lister's case to create acrylic case with clearance for USB-C and connection pads.
