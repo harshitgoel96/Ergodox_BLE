@@ -35,3 +35,13 @@
     
 * **30-Jan-2019**   
     Used lister's case to create acrylic case with clearance for USB-C and connection pads.
+    
+----------------------------------------------------------------------------------------------------------------------------------------
+
+* **24-Mar-2019**
+    I have been lazy updating the post, so here are all the updates
+    * PCBs have been recieved, wiring looks ok, USB C pads are too small to handsolder, will have to replace it with something more easy to hand solder. ToDo.
+    * Bluemicro has been assembled, easy to do if you can ready the marking on PCB and Component reels.
+    * I have built the firmware for bluemicro, and did some test unassembeled. Bluetooth working as expected, no latency issues for me so far.
+    * PCB has a few diodes in place, just to test things out before I solder in every thing.
+    * Female headers are in place to support removal for MCU if and when required. Soldering diodes leg/wire on MCU itself is bit tricky. Trying to make it work at the moment.
