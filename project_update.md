@@ -45,3 +45,5 @@
     * I have built the firmware for bluemicro, and did some test unassembeled. Bluetooth working as expected, no latency issues for me so far.
     * PCB has a few diodes in place, just to test things out before I solder in every thing.
     * Female headers are in place to support removal for MCU if and when required. Soldering diodes leg/wire on MCU itself is bit tricky. Trying to make it work at the moment.
+* **25-Mar-2019**
+    * Finally decided to hard solder the MCU. Firmware mostly works fine, need to flip the right hand mapping to make it work correctly
