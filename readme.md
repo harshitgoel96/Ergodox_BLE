@@ -6,3 +6,10 @@ I love my [Ergodox](https://i.imgur.com/aIGm8G6h.jpg) , but it is not Bluetooth.
 This is my first attempt at making a PCB and I need help from PCB hardware experts if everything is ok or do I need make some changes.
 
 The Ergodox Keyboard was originally developed by “Dox” (Dominic Beauchamp). 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+There has ben lot of progress, the complete timeline of the project is available in (project update)[./project_udpate.md] file
+
+First prototype 
+[https://imgur.com/a/RsonNqu]
+
