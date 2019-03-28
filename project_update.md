@@ -47,3 +47,5 @@
     * Female headers are in place to support removal for MCU if and when required. Soldering diodes leg/wire on MCU itself is bit tricky. Trying to make it work at the moment.
 * **25-Mar-2019**
     * Finally decided to hard solder the MCU. Firmware mostly works fine, need to flip the right hand mapping to make it work correctly
+* **29-Mar-2019**
+    * The develop branch of BlueMicro firmware is now being used. There is no connectivity or latency issue being observerd. Currently testing out the keyboard without any layers. This is to test out the hardware and firmware without have any complex code or marcro.
