@@ -8,8 +8,7 @@ This is my first attempt at making a PCB and I need help from PCB hardware exper
 The Ergodox Keyboard was originally developed by “Dox” (Dominic Beauchamp). 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-There has ben lot of progress, the complete timeline of the project is available in (project update)[./project_udpate.md] file
+There has ben lot of progress, the complete timeline of the project is available in [Project update](./project_udpate.md) file
 
 First prototype 
-[https://imgur.com/a/RsonNqu]
-
+![Ergodox V](https://imgur.com/a/RsonNqu)
