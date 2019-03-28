@@ -1625,64 +1625,17 @@ Text Label 3750 2650 2    50   ~ 0
 GND
 Text Label 3750 2750 2    50   ~ 0
 scl
-Text Label 3750 2850 2    50   ~ 0
-sdaM
 NoConn ~ 3750 2350
 NoConn ~ 3750 2450
 NoConn ~ 5150 2350
 NoConn ~ 5150 2550
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5C590F9B
-P 1900 5200
-F 0 "JP1" H 1900 5405 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1900 5314 50  0000 C CNN
-F 2 "Keebio-Parts:solder_jumper" H 1900 5200 50  0001 C CNN
-F 3 "~" H 1900 5200 50  0001 C CNN
-	1    1900 5200
-	1    0    0    -1  
-$EndComp
-Text Label 1750 5200 2    50   ~ 0
-sdaM
-Text Label 2050 5200 0    50   ~ 0
-sda
-$Comp
-L component:RESISTOR R_scl1
-U 1 1 5C5A4BE6
-P 3550 4500
-F 0 "R_scl1" V 3342 4500 50  0000 C CNN
-F 1 "47k" V 3433 4500 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 3550 4500 50  0001 C CNN
-F 3 "" H 3550 4500 50  0001 C CNN
-	1    3550 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L component:RESISTOR R_sda1
-U 1 1 5C5A4DA6
-P 3550 4800
-F 0 "R_sda1" V 3342 4800 50  0000 C CNN
-F 1 "47k" V 3433 4800 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Hybrid" H 3550 4800 50  0001 C CNN
-F 3 "" H 3550 4800 50  0001 C CNN
-	1    3550 4800
-	0    1    1    0   
-$EndComp
-Text Label 3800 4500 0    50   ~ 0
-Vcc
-Text Label 3800 4800 0    50   ~ 0
-Vcc
-Text Label 3300 4800 2    50   ~ 0
-sda
-Text Label 3300 4500 2    50   ~ 0
-scl
 $Comp
 L Connector:AudioJack4 J_Audio_F1
 U 1 1 5C5B93B3
 P 4850 4150
 F 0 "J_Audio_F1" H 4805 4475 50  0000 C CNN
 F 1 "AudioJack4" H 4805 4384 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320D" H 4850 4150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 4850 4150 50  0001 C CNN
 F 3 "~" H 4850 4150 50  0001 C CNN
 	1    4850 4150
 	1    0    0    -1  
@@ -1693,7 +1646,7 @@ U 1 1 5C5B959D
 P 6200 4150
 F 0 "J_Audio_B1" H 6155 4475 50  0000 C CNN
 F 1 "AudioJack4" H 6155 4384 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320D" H 6200 4150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 6200 4150 50  0001 C CNN
 F 3 "~" H 6200 4150 50  0001 C CNN
 	1    6200 4150
 	1    0    0    -1  
@@ -1702,14 +1655,10 @@ Text Label 5050 4050 0    50   ~ 0
 Vcc
 Text Label 5050 4350 0    50   ~ 0
 GND
-Text Label 5050 4150 0    50   ~ 0
-sda
 Text Label 5050 4250 0    50   ~ 0
 scl
 Text Label 6400 4050 0    50   ~ 0
 Vcc
-Text Label 6400 4150 0    50   ~ 0
-sda
 Text Label 6400 4250 0    50   ~ 0
 scl
 Text Label 6400 4350 0    50   ~ 0
