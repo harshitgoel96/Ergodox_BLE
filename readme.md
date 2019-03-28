@@ -11,4 +11,4 @@ The Ergodox Keyboard was originally developed by “Dox” (Dominic Beauchamp).
 There has ben lot of progress, the complete timeline of the project is available in [Project update](./project_udpate.md) file
 
 First prototype 
-![Ergodox V](https://imgur.com/a/RsonNqu)
+![Ergodox V](https://imgur.com/a/RsonNqu.jpg)
