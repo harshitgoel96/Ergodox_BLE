@@ -1738,4 +1738,19 @@ F 3 "" H 2050 1750 50  0001 C CNN
 	1    2050 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Female J_CR2032
+U 1 1 5CA168E4
+P 2200 3200
+F 0 "J_CR2032" H 2227 3176 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 2227 3085 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 2200 3200 50  0001 C CNN
+F 3 "~" H 2200 3200 50  0001 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+Text Label 2000 3200 2    50   ~ 0
+Vcc
+Text Label 2000 3300 2    50   ~ 0
+GND
 $EndSCHEMATC

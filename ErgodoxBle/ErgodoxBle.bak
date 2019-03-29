@@ -1635,7 +1635,7 @@ U 1 1 5C5B93B3
 P 4850 4150
 F 0 "J_Audio_F1" H 4805 4475 50  0000 C CNN
 F 1 "AudioJack4" H 4805 4384 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320D" H 4850 4150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 4850 4150 50  0001 C CNN
 F 3 "~" H 4850 4150 50  0001 C CNN
 	1    4850 4150
 	1    0    0    -1  
@@ -1646,7 +1646,7 @@ U 1 1 5C5B959D
 P 6200 4150
 F 0 "J_Audio_B1" H 6155 4475 50  0000 C CNN
 F 1 "AudioJack4" H 6155 4384 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320D" H 6200 4150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 6200 4150 50  0001 C CNN
 F 3 "~" H 6200 4150 50  0001 C CNN
 	1    6200 4150
 	1    0    0    -1  
@@ -1738,4 +1738,19 @@ F 3 "" H 2050 1750 50  0001 C CNN
 	1    2050 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x05_Female J_CR2032
+U 1 1 5C9F5559
+P 2350 3150
+F 0 "J_CR2032" H 2377 3176 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 2377 3085 50  0000 L CNN
+F 2 "usbc_footprint:WP-100mil-1x05" H 2350 3150 50  0001 C CNN
+F 3 "~" H 2350 3150 50  0001 C CNN
+	1    2350 3150
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3350 2    50   ~ 0
+GND
+Text Label 2150 3050 2    50   ~ 0
+Vcc
 $EndSCHEMATC
