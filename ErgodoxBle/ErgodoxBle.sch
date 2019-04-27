@@ -1552,20 +1552,9 @@ F 3 "" H 4700 6050 60  0001 C CNN
 	1    4700 6050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Female J_USB_PAD1
-U 1 1 5C943493
-P 1950 4000
-F 0 "J_USB_PAD1" H 1977 3976 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 1977 3885 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 1950 4000 50  0001 C CNN
-F 3 "~" H 1950 4000 50  0001 C CNN
-	1    1950 4000
-	1    0    0    -1  
-$EndComp
-Text Label 1750 4000 2    50   ~ 0
+Text Label 3300 4000 2    50   ~ 0
 D+
-Text Label 1750 4100 2    50   ~ 0
+Text Label 3300 4100 2    50   ~ 0
 D-
 $Comp
 L component:RESISTOR R_cc1
@@ -1615,10 +1604,8 @@ F 3 "" H 2200 4850 50  0001 C CNN
 	1    2200 4850
 	0    -1   -1   0   
 $EndComp
-Text Label 5150 2650 0    50   ~ 0
-Vcc
 Text Label 5150 2450 0    50   ~ 0
-GND
+GND_USB
 Text Label 3750 2550 2    50   ~ 0
 GND
 Text Label 3750 2650 2    50   ~ 0
@@ -1627,7 +1614,6 @@ Text Label 3750 2750 2    50   ~ 0
 scl
 NoConn ~ 3750 2350
 NoConn ~ 3750 2450
-NoConn ~ 5150 2350
 NoConn ~ 5150 2550
 $Comp
 L Connector:AudioJack4 J_Audio_F1
@@ -1674,70 +1660,22 @@ F 3 "" H 1250 2850 60  0001 C CNN
 	1    1250 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L component:GND #PWR0103
-U 1 1 5C6354D1
-P 1400 2300
-F 0 "#PWR0103" H 1400 2300 30  0001 C CNN
-F 1 "GND" H 1400 2230 30  0001 C CNN
-F 2 "" H 1400 2300 50  0001 C CNN
-F 3 "" H 1400 2300 50  0001 C CNN
-	1    1400 2300
-	0    -1   -1   0   
-$EndComp
 Text Label 1350 2400 0    50   ~ 0
 VccR
 Text Label 1350 2600 0    50   ~ 0
 CC1
 Text Label 1350 3200 0    50   ~ 0
 CC2
-$Comp
-L component:GND #PWR0104
-U 1 1 5C646282
-P 1400 3400
-F 0 "#PWR0104" H 1400 3400 30  0001 C CNN
-F 1 "GND" H 1400 3330 30  0001 C CNN
-F 2 "" H 1400 3400 50  0001 C CNN
-F 3 "" H 1400 3400 50  0001 C CNN
-	1    1400 3400
-	0    -1   -1   0   
-$EndComp
 Text Label 1350 3300 0    50   ~ 0
 VccR
 Text Label 1350 2700 0    50   ~ 0
-D-
+D_IN-
 Text Label 1350 2800 0    50   ~ 0
-D+
+D_IN+
 Text Label 1350 2900 0    50   ~ 0
-D-
+D_IN-
 Text Label 1350 3000 0    50   ~ 0
-D+
-$Comp
-L Regulator_Linear:AMS1117-3.3 U_VR_IC1
-U 1 1 5C499923
-P 2050 1400
-F 0 "U_VR_IC1" H 2050 1642 50  0000 C CNN
-F 1 "AMS1117-3.3" H 2050 1551 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2050 1600 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2150 1150 50  0001 C CNN
-	1    2050 1400
-	1    0    0    -1  
-$EndComp
-Text Label 1750 1400 2    50   ~ 0
-VccR
-Text Label 2350 1400 0    50   ~ 0
-Vcc
-$Comp
-L component:GND #PWR0105
-U 1 1 5C49AE71
-P 2050 1750
-F 0 "#PWR0105" H 2050 1750 30  0001 C CNN
-F 1 "GND" H 2050 1680 30  0001 C CNN
-F 2 "" H 2050 1750 50  0001 C CNN
-F 3 "" H 2050 1750 50  0001 C CNN
-	1    2050 1750
-	1    0    0    -1  
-$EndComp
+D_IN+
 $Comp
 L Connector:Conn_01x02_Female J_CR2032
 U 1 1 5CA168E4
@@ -1753,4 +1691,89 @@ Text Label 2000 3200 2    50   ~ 0
 Vcc
 Text Label 2000 3300 2    50   ~ 0
 GND
+$Comp
+L keyboard_parts:D D_RAW1
+U 1 1 5CBC3CF1
+P 2100 1250
+F 0 "D_RAW1" V 1919 1200 60  0000 C CNN
+F 1 "D" V 2250 1200 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 2100 1250 60  0001 C CNN
+F 3 "" H 2100 1250 60  0000 C CNN
+	1    2100 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:D D_USB_HEADER1
+U 1 1 5CBC3EC6
+P 2100 1600
+F 0 "D_USB_HEADER1" V 1919 1550 60  0000 C CNN
+F 1 "D" V 2250 1550 60  0001 C CNN
+F 2 "Keebio-Parts:Diode-dual" H 2100 1600 60  0001 C CNN
+F 3 "" H 2100 1600 60  0000 C CNN
+	1    2100 1600
+	0    1    1    0   
+$EndComp
+Text Label 1950 1250 2    50   ~ 0
+VccR
+Text Label 1950 1600 2    50   ~ 0
+VccR
+Text Label 2150 1250 0    50   ~ 0
+VccRaw
+Text Label 2150 1600 0    50   ~ 0
+VUSB
+Text Label 5150 2350 0    50   ~ 0
+VccRaw
+Text Label 1350 2300 0    50   ~ 0
+GND_USB
+Text Label 1350 3400 0    50   ~ 0
+GND_USB
+Text Label 3300 3900 2    50   ~ 0
+VUSB
+Text Label 3300 4200 2    50   ~ 0
+GND_USB
+Text Label 5150 2650 0    50   ~ 0
+Vcc
+$Comp
+L Power_Protection:USBLC6-2SC6 U_ESD1
+U 1 1 5CBD2D52
+P 3450 1450
+F 0 "U_ESD1" H 3450 2128 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 3450 2037 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2700 1850 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3650 1800 50  0001 C CNN
+	1    3450 1450
+	1    0    0    -1  
+$EndComp
+Text Label 3450 950  0    50   ~ 0
+VccR
+Text Label 2950 1350 2    50   ~ 0
+D_IN+
+Text Label 3950 1350 0    50   ~ 0
+D_IN-
+Text Label 2950 1550 2    50   ~ 0
+D+
+Text Label 3950 1550 0    50   ~ 0
+D-
+$Comp
+L component:GND #PWR0103
+U 1 1 5CBD3635
+P 3450 2000
+F 0 "#PWR0103" H 3450 2000 30  0001 C CNN
+F 1 "GND" H 3450 1930 30  0001 C CNN
+F 2 "" H 3450 2000 50  0001 C CNN
+F 3 "" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J_usb_break1
+U 1 1 5CC50D9F
+P 3500 4000
+F 0 "J_usb_break1" H 3527 3976 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 3527 3885 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x04_P3.81mm_Drill1mm" H 3500 4000 50  0001 C CNN
+F 3 "~" H 3500 4000 50  0001 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
