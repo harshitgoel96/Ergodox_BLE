@@ -1776,4 +1776,35 @@ F 3 "~" H 3500 4000 50  0001 C CNN
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB_C2
+U 1 1 5CC80FFB
+P 6450 1700
+F 0 "USB_C2" H 6281 2497 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 6281 2391 60  0000 C CNN
+F 2 "usbc_footprint:HRO-TYPE-C-31-M-12" H 6450 1700 60  0001 C CNN
+F 3 "" H 6450 1700 60  0001 C CNN
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+Text Label 6550 1250 0    50   ~ 0
+VccR
+Text Label 6550 1450 0    50   ~ 0
+CC1
+Text Label 6550 2050 0    50   ~ 0
+CC2
+Text Label 6550 2150 0    50   ~ 0
+VccR
+Text Label 6550 1550 0    50   ~ 0
+D_IN-
+Text Label 6550 1650 0    50   ~ 0
+D_IN+
+Text Label 6550 1750 0    50   ~ 0
+D_IN-
+Text Label 6550 1850 0    50   ~ 0
+D_IN+
+Text Label 6550 1150 0    50   ~ 0
+GND_USB
+Text Label 6550 2250 0    50   ~ 0
+GND_USB
 $EndSCHEMATC

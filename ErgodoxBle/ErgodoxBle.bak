@@ -1771,7 +1771,7 @@ U 1 1 5CC50D9F
 P 3500 4000
 F 0 "J_usb_break1" H 3527 3976 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 3527 3885 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x04_P7.62mm_Drill2.5mm" H 3500 4000 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x04_P3.81mm_Drill1mm" H 3500 4000 50  0001 C CNN
 F 3 "~" H 3500 4000 50  0001 C CNN
 	1    3500 4000
 	1    0    0    -1  
