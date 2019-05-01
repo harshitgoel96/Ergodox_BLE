@@ -49,3 +49,8 @@
     * Finally decided to hard solder the MCU. Firmware mostly works fine, need to flip the right hand mapping to make it work correctly
 * **29-Mar-2019**
     * The develop branch of BlueMicro firmware is now being used. There is no connectivity or latency issue being observerd. Currently testing out the keyboard without any layers. This is to test out the hardware and firmware without have any complex code or marcro.
+	
+----------------------------------------------------------------------------------------------------------------------------------------
+
+* **01-May-2019**
+	ErgodoxC v1.3 released. This is most probably the last version of the PCB. Dual side USB C, USB ESD protection have been added. Case design updated for this pcb.
