@@ -1604,8 +1604,6 @@ F 3 "" H 2200 4850 50  0001 C CNN
 	1    2200 4850
 	0    -1   -1   0   
 $EndComp
-Text Label 5150 2450 0    50   ~ 0
-GND_USB
 Text Label 3750 2550 2    50   ~ 0
 GND
 Text Label 3750 2650 2    50   ~ 0
@@ -1661,13 +1659,13 @@ F 3 "" H 1250 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1350 2400 0    50   ~ 0
-VccR
+VUSB
 Text Label 1350 2600 0    50   ~ 0
 CC1
 Text Label 1350 3200 0    50   ~ 0
 CC2
 Text Label 1350 3300 0    50   ~ 0
-VccR
+VUSB
 Text Label 1350 2700 0    50   ~ 0
 D_IN-
 Text Label 1350 2800 0    50   ~ 0
@@ -1691,38 +1689,6 @@ Text Label 2000 3200 2    50   ~ 0
 Vcc
 Text Label 2000 3300 2    50   ~ 0
 GND
-$Comp
-L keyboard_parts:D D_RAW1
-U 1 1 5CBC3CF1
-P 2100 1250
-F 0 "D_RAW1" V 1919 1200 60  0000 C CNN
-F 1 "D" V 2250 1200 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 2100 1250 60  0001 C CNN
-F 3 "" H 2100 1250 60  0000 C CNN
-	1    2100 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L keyboard_parts:D D_USB_HEADER1
-U 1 1 5CBC3EC6
-P 2100 1600
-F 0 "D_USB_HEADER1" V 1919 1550 60  0000 C CNN
-F 1 "D" V 2250 1550 60  0001 C CNN
-F 2 "Keebio-Parts:Diode-dual" H 2100 1600 60  0001 C CNN
-F 3 "" H 2100 1600 60  0000 C CNN
-	1    2100 1600
-	0    1    1    0   
-$EndComp
-Text Label 1950 1250 2    50   ~ 0
-VccR
-Text Label 1950 1600 2    50   ~ 0
-VccR
-Text Label 2150 1250 0    50   ~ 0
-VccRaw
-Text Label 2150 1600 0    50   ~ 0
-VUSB
-Text Label 5150 2350 0    50   ~ 0
-VccRaw
 Text Label 1350 2300 0    50   ~ 0
 GND_USB
 Text Label 1350 3400 0    50   ~ 0
@@ -1776,4 +1742,35 @@ F 3 "~" H 3500 4000 50  0001 C CNN
 	1    3500 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB_C2
+U 1 1 5CC80FFB
+P 6450 1700
+F 0 "USB_C2" H 6281 2497 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 6281 2391 60  0000 C CNN
+F 2 "usbc_footprint:HRO-TYPE-C-31-M-12" H 6450 1700 60  0001 C CNN
+F 3 "" H 6450 1700 60  0001 C CNN
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+Text Label 6550 1250 0    50   ~ 0
+VUSB
+Text Label 6550 1450 0    50   ~ 0
+CC1
+Text Label 6550 2050 0    50   ~ 0
+CC2
+Text Label 6550 2150 0    50   ~ 0
+VUSB
+Text Label 6550 1550 0    50   ~ 0
+D_IN-
+Text Label 6550 1650 0    50   ~ 0
+D_IN+
+Text Label 6550 1750 0    50   ~ 0
+D_IN-
+Text Label 6550 1850 0    50   ~ 0
+D_IN+
+Text Label 6550 1150 0    50   ~ 0
+GND_USB
+Text Label 6550 2250 0    50   ~ 0
+GND_USB
 $EndSCHEMATC
