@@ -54,3 +54,5 @@
 
 * **01-May-2019**
 	ErgodoxC v1.3 released. This is most probably the last version of the PCB. Dual side USB C, USB ESD protection have been added. Case design updated for this pcb.
+* **02-May-2019**
+	Case files updated with plate for Alps Switches.
