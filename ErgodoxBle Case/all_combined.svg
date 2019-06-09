@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="478.60118"
-     inkscape:cy="679.76132"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="663.53651"
+     inkscape:cy="645.75675"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="705"
@@ -106,8 +106,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="PCB"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        transform="matrix(0.00254,0,0,0.00254,-11.560075,13.850749)"
@@ -4521,9 +4521,9 @@
      style="display:none"
      sodipodi:insensitive="true">
     <path
-       sodipodi:nodetypes="ccccccccccccccccccccccsssccsssssssccccccccccccccc"
+       sodipodi:nodetypes="cccccccccccccccccccccccccsssccssssssscccccccc"
        inkscape:connector-curvature="0"
-       d="M 93.783724,46.093721 H 81.307564 V 43.59372 h -2.708223 l -0.0055,-0.971613 v 0 l 13.879672,-5.642184 h 15.817257 l 8.37175,6.17135 h 2.77217 l -0.0189,2.942448 h -11.81384 z m 13.752966,19.488405 h 40.21912 v 0.01159 h 46.80764 l 0.0135,-19.5 h -61.22342 v -2.942448 h 3.9927 l 5.62535,-6.17135 53.37295,9.5e-5 c 3.866,0 7,3.134006 7,6.999999 V 168.41001 c 0,3.866 -3.134,7 -7,7 h -77.13275 c -1.02102,0.009 -2.0288,0.23198 -2.95782,0.65561 l -79.567977,37.09539 c -3.503721,1.63346 -7.668244,0.1175 -9.301982,-3.38608 L 1.4196464,154.09364 c -1.6338627,-3.50386 -0.1178629,-7.6688 3.3860437,-9.30256 L 38.215923,129.21296 c 2.46565,-1.14965 4.041881,-3.62375 4.041881,-6.34425 V 43.980017 c 0,-3.865993 3.134006,-6.999999 6.999999,-6.999999 l 8.112956,-9.5e-5 13.8797,5.642184 v 0 l -0.01014,0.971613 h -2.703562 v 3.542816 h -2.996343 l 7.94e-4,7.959111 0.01026,-0.0019 v 10.484621 h 28.257362 13.77268 z"
+       d="M 81.307564,46.093721 V 43.59372 h -2.708223 l -0.0055,-0.971613 v 0 l 13.879672,-5.642184 h 15.817257 l 8.37175,6.17135 h 2.77217 l -0.0189,2.942448 H 107.60195 95.94976 M 68.546282,58.170035 h 12.760032 m 14.626742,7.408333 h 11.648454 l -0.0448,0.0038 h 40.21912 v 0.01159 h 46.80764 l 0.0135,-19.5 H 133.35355 V 43.15131 h 3.9927 l 5.62535,-6.17135 53.37295,9.5e-5 c 3.866,0 7,3.134006 7,6.999999 V 168.41001 c 0,3.866 -3.134,7 -7,7 H 119.2118 c -1.02102,0.009 -2.0288,0.23198 -2.95782,0.65561 l -79.567977,37.09539 c -3.503721,1.63346 -7.668244,0.1175 -9.301982,-3.38608 L 1.4196464,154.09364 c -1.6338627,-3.50386 -0.1178629,-7.6688 3.3860437,-9.30256 L 38.215923,129.21296 c 2.46565,-1.14965 4.041881,-3.62375 4.041881,-6.34425 V 43.980017 c 0,-3.865993 3.134006,-6.999999 6.999999,-6.999999 l 8.112956,-9.5e-5 13.8797,5.642184 v 0 l -0.01014,0.971613 h -2.703562 v 3.542816"
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
        id="path5993" />
     <path
@@ -4751,251 +4751,282 @@
        d="m 53.941759,109.50708 h 0.98044 v 0.8128 h 3.50012 v -0.8128 h 5.00888 v 0.8128 h 3.50012 v -0.8128 h 0.98044 V 95.537084 h -0.98044 v -0.8128 h -3.50012 v 0.8128 h -5.00888 v -0.8128 h -3.50012 v 0.8128 h -0.98044 z"
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
        id="path6097" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 81.307563,46.093721 -0.0012,12.076314"
+       id="path1517"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 68.536756,47.136536 0.0095,11.033499"
+       id="path1519"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 95.911457,46.071057 V 65.628109"
+       id="path1521"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="plate_alps"
+     style="display:none"
      sodipodi:insensitive="true">
+    <path
+       sodipodi:nodetypes="ccccccccccccccccccccccccsssccsssssssccccccccccc"
+       inkscape:connector-curvature="0"
+       d="m 81.307552,46.093625 v -2.500001 h -2.708223 l -0.0055,-0.971613 v 0 l 13.879672,-5.642184 h 15.817259 l 8.37175,6.17135 h 2.77217 l -0.0189,2.942448 h -11.81384 -8.843848 m -0.003,19.484647 h 8.826368 m 0,0 -0.0448,0.0038 h 40.21912 v 0.01159 h 46.80764 l 0.0135,-19.5 h -61.22344 v -2.942448 h 3.9927 l 5.62535,-6.17135 53.37295,9.5e-5 c 3.866,0 7,3.134006 7,6.999999 V 168.40991 c 0,3.866 -3.134,7 -7,7 h -77.13275 c -1.02102,0.009 -2.0288,0.23198 -2.95782,0.65561 l -79.567981,37.09539 c -3.503721,1.63346 -7.668244,0.1175 -9.301982,-3.38608 L 1.4196343,154.09354 c -1.6338627,-3.50386 -0.1178629,-7.6688 3.3860437,-9.30256 l 33.410233,-15.57812 c 2.46565,-1.14964 4.041881,-3.62375 4.041881,-6.34424 V 43.979921 c 0,-3.865993 3.134006,-6.999999 6.999999,-6.999999 l 8.112956,-9.5e-5 13.8797,5.642184 v 0 l -0.01014,0.971613 h -2.703562 v 3.542816 m 0.0012,11.033499 v 0 h 12.797818"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
+       id="path5993-6" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 51.00015,43.243798 a 2.4721326,2.4721326 0 1 0 -4.944265,0 2.4721326,2.4721326 0 1 0 4.944265,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.4360567;stroke-linecap:round"
+       id="path5997-9" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 104.48385,41.424922 a 2.47256,2.47256 0 1 0 -4.945116,0 2.47256,2.47256 0 1 0 4.945116,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43613192;stroke-linecap:round"
+       id="path5999-8" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 199.55034,43.243798 a 2.4696469,2.4696469 0 1 0 -4.93925,0 2.4696469,2.4696469 0 1 0 4.93925,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43561825;stroke-linecap:round"
+       id="path6001-1" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 199.55034,167.55854 a 2.4696469,2.4696469 0 1 0 -4.93925,0 2.4696469,2.4696469 0 1 0 4.93925,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43561825;stroke-linecap:round"
+       id="path6003-6" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 119.14727,170.96491 a 2.47256,2.47256 0 1 0 -4.94512,0 2.47256,2.47256 0 1 0 4.94512,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43613192;stroke-linecap:round"
+       id="path6005-7" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 35.845056,207.79551 a 2.472561,2.472561 0 1 0 -4.945122,0 2.472561,2.472561 0 1 0 4.945122,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43613181;stroke-linecap:round"
+       id="path6007-9" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 9.258317,150.77946 a 2.4722595,2.4722595 0 1 0 -4.9445184,0 2.4722595,2.4722595 0 1 0 4.9445184,0 z"
+       style="fill:none;stroke:#000000;stroke-width:0.43607908;stroke-linecap:round"
+       id="path6009-1" />
     <g
-       transform="translate(-2.467976,9.062165)"
-       style="display:inline"
-       id="g10095">
-      <path
-         id="path5993-6"
-         style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
-         d="m 96.251688,37.03146 h -12.47616 v -2.500001 h -2.708223 l -0.0055,-0.971613 v 0 l 13.879672,-5.642184 h 15.817263 l 8.37175,6.17135 h 2.77217 l -0.0189,2.942448 h -11.81384 z m 13.752972,19.488405 h 40.21912 v 0.01159 h 46.80764 l 0.0135,-19.5 H 135.8215 v -2.942448 h 3.9927 l 5.62535,-6.17135 53.37295,9.5e-5 c 3.866,0 7,3.134006 7,6.999999 V 159.34775 c 0,3.866 -3.134,7 -7,7 h -77.13275 c -1.02102,0.009 -2.0288,0.23198 -2.95782,0.65561 l -79.567983,37.09539 c -3.503721,1.63346 -7.668244,0.1175 -9.301982,-3.38608 L 3.8876103,145.03138 c -1.6338627,-3.50386 -0.1178629,-7.6688 3.3860437,-9.30256 L 40.683887,120.1507 c 2.46565,-1.14965 4.041881,-3.62375 4.041881,-6.34425 V 34.917756 c 0,-3.865993 3.134006,-6.999999 6.999999,-6.999999 l 8.112956,-9.5e-5 13.8797,5.642184 v 0 l -0.01014,0.971613 h -2.703562 v 3.542816 h -2.996343 l 7.94e-4,7.959111 0.01026,-0.0019 v 10.484621 h 28.257362 13.772686 z"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccccccccccccccccsssccsssssssccccccccccccccc" />
-      <path
-         id="path5997-9"
-         style="fill:none;stroke:#000000;stroke-width:0.4360567;stroke-linecap:round"
-         d="m 53.468126,34.181633 a 2.4721326,2.4721326 0 1 0 -4.944265,0 2.4721326,2.4721326 0 1 0 4.944265,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path5999-8"
-         style="fill:none;stroke:#000000;stroke-width:0.43613192;stroke-linecap:round"
-         d="m 106.95183,32.362757 a 2.47256,2.47256 0 1 0 -4.94512,0 2.47256,2.47256 0 1 0 4.94512,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path6001-1"
-         style="fill:none;stroke:#000000;stroke-width:0.43561825;stroke-linecap:round"
-         d="m 202.01832,34.181633 a 2.4696469,2.4696469 0 1 0 -4.93925,0 2.4696469,2.4696469 0 1 0 4.93925,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path6003-6"
-         style="fill:none;stroke:#000000;stroke-width:0.43561825;stroke-linecap:round"
-         d="m 202.01832,158.49638 a 2.4696469,2.4696469 0 1 0 -4.93925,0 2.4696469,2.4696469 0 1 0 4.93925,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path6005-7"
-         style="fill:none;stroke:#000000;stroke-width:0.43613192;stroke-linecap:round"
-         d="m 121.61525,161.90275 a 2.47256,2.47256 0 1 0 -4.94512,0 2.47256,2.47256 0 1 0 4.94512,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path6007-9"
-         style="fill:none;stroke:#000000;stroke-width:0.43613181;stroke-linecap:round"
-         d="m 38.313032,198.73335 a 2.472561,2.472561 0 1 0 -4.945122,0 2.472561,2.472561 0 1 0 4.945122,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path6009-1"
-         style="fill:none;stroke:#000000;stroke-width:0.43607908;stroke-linecap:round"
-         d="m 11.726293,141.7173 a 2.4722595,2.4722595 0 1 0 -4.9445184,0 2.4722595,2.4722595 0 1 0 4.9445184,0 z"
-         inkscape:connector-curvature="0" />
-      <g
-         id="g9893">
-        <polygon
-           transform="translate(48.85373,55.138859)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983" />
-        <polygon
-           transform="translate(67.90373,55.138859)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-0" />
-        <polygon
-           transform="translate(86.95373,53.866319)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-6" />
-        <polygon
-           transform="translate(106.00373,52.268659)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-1" />
-        <polygon
-           transform="translate(125.05373,53.866319)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-60" />
-        <polygon
-           transform="translate(144.10373,57.043859)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-2" />
-        <polygon
-           transform="translate(167.91623,57.043859)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-3" />
-        <polygon
-           transform="translate(167.91623,76.091323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-9" />
-        <polygon
-           transform="translate(144.10373,76.091323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-4" />
-        <polygon
-           transform="translate(125.05373,72.916323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-62" />
-        <polygon
-           transform="translate(106.00373,71.318659)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-28" />
-        <polygon
-           transform="translate(86.95373,72.916323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-8" />
-        <polygon
-           transform="translate(67.90373,74.186323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-03" />
-        <polygon
-           transform="rotate(90,-0.5215515,78.427277)"
-           points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-38" />
-        <polygon
-           transform="translate(67.90373,93.236323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-43" />
-        <polygon
-           transform="translate(86.95373,91.966323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-21" />
-        <polygon
-           transform="translate(106.00373,90.368663)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-5" />
-        <polygon
-           transform="translate(125.05373,91.966323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-15" />
-        <polygon
-           transform="translate(144.10373,95.141323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-7" />
-        <polygon
-           transform="translate(167.91623,95.141323)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-58" />
-        <polygon
-           transform="translate(167.91623,114.19132)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-41" />
-        <polygon
-           transform="translate(144.10373,114.19132)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-69" />
-        <polygon
-           transform="translate(125.05373,111.01632)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-81" />
-        <polygon
-           transform="translate(106.00373,109.41866)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-73" />
-        <polygon
-           transform="translate(86.95373,111.01632)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-56" />
-        <polygon
-           transform="translate(67.90373,112.28632)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-66" />
-        <polygon
-           transform="rotate(90,-14.809052,92.714777)"
-           points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-72" />
-        <polygon
-           transform="translate(86.95373,130.06631)"
-           points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-68" />
-        <polygon
-           transform="translate(106.00373,128.46865)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-04" />
-        <polygon
-           transform="translate(125.05373,130.06631)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-02" />
-        <polygon
-           transform="translate(144.10373,133.24131)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-55" />
-        <polygon
-           transform="translate(163.15373,133.24131)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-86" />
-        <polygon
-           transform="rotate(-25,320.77486,55.98916)"
-           points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
-           style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50" />
-        <polygon
-           transform="rotate(-25,311.25312,13.02724)"
-           points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
-           style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50-0" />
-        <polygon
-           transform="rotate(-25,363.73681,46.46742)"
-           points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
-           style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50-9" />
-        <polygon
-           transform="rotate(-25,406.7057,36.94122)"
-           points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
-           style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50-8" />
-        <polygon
-           transform="rotate(-115,89.007534,67.662935)"
-           points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
-           style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50-95" />
-        <polygon
-           transform="rotate(-115,82.930474,77.202135)"
-           points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
-           style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           id="polygon8983-50-95-7" />
-      </g>
+       id="g9893"
+       transform="translate(-2.467976,9.062165)">
+      <polygon
+         id="polygon8983"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(48.85373,55.138859)" />
+      <polygon
+         id="polygon8983-0"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(67.90373,55.138859)" />
+      <polygon
+         id="polygon8983-6"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(86.95373,53.866319)" />
+      <polygon
+         id="polygon8983-1"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(106.00373,52.268659)" />
+      <polygon
+         id="polygon8983-60"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(125.05373,53.866319)" />
+      <polygon
+         id="polygon8983-2"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(144.10373,57.043859)" />
+      <polygon
+         id="polygon8983-3"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(167.91623,57.043859)" />
+      <polygon
+         id="polygon8983-9"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(167.91623,76.091323)" />
+      <polygon
+         id="polygon8983-4"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(144.10373,76.091323)" />
+      <polygon
+         id="polygon8983-62"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(125.05373,72.916323)" />
+      <polygon
+         id="polygon8983-28"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(106.00373,71.318659)" />
+      <polygon
+         id="polygon8983-8"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(86.95373,72.916323)" />
+      <polygon
+         id="polygon8983-03"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(67.90373,74.186323)" />
+      <polygon
+         id="polygon8983-38"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
+         transform="rotate(90,-0.5215515,78.427277)" />
+      <polygon
+         id="polygon8983-43"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(67.90373,93.236323)" />
+      <polygon
+         id="polygon8983-21"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(86.95373,91.966323)" />
+      <polygon
+         id="polygon8983-5"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(106.00373,90.368663)" />
+      <polygon
+         id="polygon8983-15"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(125.05373,91.966323)" />
+      <polygon
+         id="polygon8983-7"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(144.10373,95.141323)" />
+      <polygon
+         id="polygon8983-58"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(167.91623,95.141323)" />
+      <polygon
+         id="polygon8983-41"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(167.91623,114.19132)" />
+      <polygon
+         id="polygon8983-69"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(144.10373,114.19132)" />
+      <polygon
+         id="polygon8983-81"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(125.05373,111.01632)" />
+      <polygon
+         id="polygon8983-73"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(106.00373,109.41866)" />
+      <polygon
+         id="polygon8983-56"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(86.95373,111.01632)" />
+      <polygon
+         id="polygon8983-66"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(67.90373,112.28632)" />
+      <polygon
+         id="polygon8983-72"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
+         transform="rotate(90,-14.809052,92.714777)" />
+      <polygon
+         id="polygon8983-68"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
+         transform="translate(86.95373,130.06631)" />
+      <polygon
+         id="polygon8983-04"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(106.00373,128.46865)" />
+      <polygon
+         id="polygon8983-02"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(125.05373,130.06631)" />
+      <polygon
+         id="polygon8983-55"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(144.10373,133.24131)" />
+      <polygon
+         id="polygon8983-86"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="translate(163.15373,133.24131)" />
+      <polygon
+         id="polygon8983-50"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
+         transform="rotate(-25,320.77486,55.98916)" />
+      <polygon
+         id="polygon8983-50-0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
+         transform="rotate(-25,311.25312,13.02724)" />
+      <polygon
+         id="polygon8983-50-9"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
+         transform="rotate(-25,363.73681,46.46742)" />
+      <polygon
+         id="polygon8983-50-8"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="22.326,20.926 22.326,8.126 6.726,8.126 6.726,20.926 "
+         transform="rotate(-25,406.7057,36.94122)" />
+      <polygon
+         id="polygon8983-50-95"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,8.126 6.726,20.926 22.326,20.926 22.326,8.126 "
+         transform="rotate(-115,89.007534,67.662935)" />
+      <polygon
+         id="polygon8983-50-95-7"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
+         points="6.726,20.926 22.326,20.926 22.326,8.126 6.726,8.126 "
+         transform="rotate(-115,82.930474,77.202135)" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 81.30755,46.093625 0.02821,12.076314"
+       id="path1513"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 98.75609,46.10073 V 65.578169"
+       id="path1515"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 68.536745,47.136438 0.0012,11.033501"
+       id="path1565"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5835,8 +5866,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="top_space"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
@@ -5844,9 +5874,9 @@
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
        id="path6426" />
     <path
-       sodipodi:nodetypes="cccccccccccc"
+       sodipodi:nodetypes="cccccccccccccccc"
        inkscape:connector-curvature="0"
-       d="m 68.604746,46.09362 h -3.01284 l -0.06524,4.652999 V 65.582026 H 109.1796 m 17.74002,0 h 20.83615 v 0.01159 h 36.10618 l 0.1732,-19.499995 h -64.4985 -38.153918"
+       d="m 189.15362,65.593616 0.1732,-19.499995 m 0,0 h -69.79017 l -10.35703,0.02468 m 17.74,19.463723 h 20.83615 v 0.01159 h 36.10618 5.29167 M 68.604746,46.09362 v 0 l -0.06524,4.652999 0.0068,7.423416 m 40.633314,7.411991 V 46.118303"
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round"
        id="path6428" />
     <path
@@ -5921,6 +5951,18 @@
        d="m 126.91962,65.582024 0.11805,0.506103"
        id="path8814"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.32185307px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.546304,58.170034 H 81.383571"
+       id="path1523"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 81.382731,46.09362 V 58.194677"
+       id="path1525"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"

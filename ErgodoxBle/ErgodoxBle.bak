@@ -121,7 +121,7 @@ U 1 1 4D92DFBB
 P 6100 8000
 F 0 "SW2:13" H 6250 8110 50  0000 C CNN
 F 1 "SW2:0" H 6100 7920 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6100 8000 60  0001 C CNN
+F 2 "usbc_footprint:correct_Hybrid_PCB_100v_150H_Dual_hole" H 6100 8000 60  0001 C CNN
 F 3 "" H 6100 8000 60  0001 C CNN
 	1    6100 8000
 	1    0    0    -1  
@@ -143,7 +143,7 @@ U 1 1 4D92DFAD
 P 6100 7350
 F 0 "SW3:13" H 6250 7460 50  0000 C CNN
 F 1 "SW3:0" H 6100 7270 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6100 7350 60  0001 C CNN
+F 2 "usbc_footprint:correct_Hybrid_PCB_100v_150H_Dual_hole" H 6100 7350 60  0001 C CNN
 F 3 "" H 6100 7350 60  0001 C CNN
 	1    6100 7350
 	1    0    0    -1  
@@ -264,7 +264,7 @@ U 1 1 4D92DF34
 P 6100 6700
 F 0 "SW4:13" H 6250 6810 50  0000 C CNN
 F 1 "SW4:0" H 6100 6620 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6100 6700 60  0001 C CNN
+F 2 "usbc_footprint:correct_Hybrid_PCB_100v_150H_Dual_hole" H 6100 6700 60  0001 C CNN
 F 3 "" H 6100 6700 60  0001 C CNN
 	1    6100 6700
 	1    0    0    -1  
@@ -365,7 +365,7 @@ U 1 1 4FFD34D4
 P 6100 6050
 F 0 "SW5:13" H 6250 6160 50  0000 C CNN
 F 1 "SW5:0" H 6100 5970 50  0000 C CNN
-F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole" H 6100 6050 60  0001 C CNN
+F 2 "usbc_footprint:correct_Hybrid_PCB_100v_150H_Dual_hole" H 6100 6050 60  0001 C CNN
 F 3 "" H 6100 6050 60  0001 C CNN
 	1    6100 6050
 	1    0    0    -1  
@@ -1680,13 +1680,13 @@ U 1 1 5CA168E4
 P 2200 3200
 F 0 "J_CR2032" H 2227 3176 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 2227 3085 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 2200 3200 50  0001 C CNN
+F 2 "usbc_footprint:Custom_SolderWirePad_1x02_P1.75mm_Drill1.09mm" H 2200 3200 50  0001 C CNN
 F 3 "~" H 2200 3200 50  0001 C CNN
 	1    2200 3200
 	1    0    0    -1  
 $EndComp
 Text Label 2000 3200 2    50   ~ 0
-Vcc
+RAW
 Text Label 2000 3300 2    50   ~ 0
 GND
 Text Label 1350 2300 0    50   ~ 0
@@ -1711,7 +1711,7 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3650 1800 50  00
 	1    0    0    -1  
 $EndComp
 Text Label 3450 950  0    50   ~ 0
-VccR
+VUSB
 Text Label 2950 1350 2    50   ~ 0
 D_IN+
 Text Label 3950 1350 0    50   ~ 0
@@ -1737,7 +1737,7 @@ U 1 1 5CC50D9F
 P 3500 4000
 F 0 "J_usb_break1" H 3527 3976 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 3527 3885 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x04_P3.81mm_Drill1mm" H 3500 4000 50  0001 C CNN
+F 2 "usbc_footprint:Custom_SolderWirePad_1x04_P1.7526mm_Drill1.0922mm" H 3500 4000 50  0001 C CNN
 F 3 "~" H 3500 4000 50  0001 C CNN
 	1    3500 4000
 	1    0    0    -1  
@@ -1773,4 +1773,9 @@ Text Label 6550 1150 0    50   ~ 0
 GND_USB
 Text Label 6550 2250 0    50   ~ 0
 GND_USB
+Text Label 5150 2350 0    50   ~ 0
+RAW
+Text Label 5150 2450 0    50   ~ 0
+GND
+NoConn ~ 3750 2850
 $EndSCHEMATC
