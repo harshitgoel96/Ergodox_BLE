@@ -1,3 +1,6 @@
+# There is no active development on this keyboard. Feel free to do whatever you want. I have moved to Pteron36.
+The PCB is in working statue, but no further support or development will be done on this project.
+------------------------------------------------------------------------------------------------------------------------------------------
 Ergodox BLE
 ===========
 
@@ -12,3 +15,4 @@ There has ben lot of progress, the complete timeline of the project is available
 
 First prototype assembled   
 ![Ergodox C](https://i.imgur.com/8IAD8GUg.jpg)
+
